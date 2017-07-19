@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A303CC1B1F1F2B2400FEDD20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC1A1F1F2B2400FEDD20 /* main.m */; };
+		A303CC1E1F1F2B2400FEDD20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC1D1F1F2B2400FEDD20 /* AppDelegate.m */; };
+		A303CC211F1F2B2400FEDD20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC201F1F2B2400FEDD20 /* ViewController.m */; };
+		A303CC241F1F2B2400FEDD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A303CC221F1F2B2400FEDD20 /* Main.storyboard */; };
+		A303CC261F1F2B2400FEDD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A303CC251F1F2B2400FEDD20 /* Assets.xcassets */; };
+		A303CC291F1F2B2400FEDD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A303CC271F1F2B2400FEDD20 /* LaunchScreen.storyboard */; };
+		A303CC341F1F2B2400FEDD20 /* c______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC331F1F2B2400FEDD20 /* c______DemoTests.m */; };
+		A303CC3F1F1F2B2400FEDD20 /* c______DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC3E1F1F2B2400FEDD20 /* c______DemoUITests.m */; };
+		A303CC511F1F2B9700FEDD20 /* TestObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A303CC4F1F1F2B9700FEDD20 /* TestObject.cpp */; };
+		A303CC541F1F2BF800FEDD20 /* LNTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC531F1F2BF800FEDD20 /* LNTestObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A303CC301F1F2B2400FEDD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A303CC0E1F1F2B2400FEDD20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A303CC151F1F2B2400FEDD20;
+			remoteInfo = "c++混编测试Demo";
+		};
+		A303CC3B1F1F2B2400FEDD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A303CC0E1F1F2B2400FEDD20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A303CC151F1F2B2400FEDD20;
+			remoteInfo = "c++混编测试Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A303CC161F1F2B2400FEDD20 /* c++混编测试Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "c++混编测试Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A303CC1A1F1F2B2400FEDD20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A303CC1C1F1F2B2400FEDD20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A303CC1D1F1F2B2400FEDD20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A303CC1F1F1F2B2400FEDD20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A303CC201F1F2B2400FEDD20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A303CC231F1F2B2400FEDD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A303CC251F1F2B2400FEDD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A303CC281F1F2B2400FEDD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A303CC2A1F1F2B2400FEDD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A303CC2F1F1F2B2400FEDD20 /* c++混编测试DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "c++混编测试DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A303CC331F1F2B2400FEDD20 /* c______DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "c______DemoTests.m"; sourceTree = "<group>"; };
+		A303CC351F1F2B2400FEDD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A303CC3A1F1F2B2400FEDD20 /* c++混编测试DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "c++混编测试DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A303CC3E1F1F2B2400FEDD20 /* c______DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "c______DemoUITests.m"; sourceTree = "<group>"; };
+		A303CC401F1F2B2400FEDD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A303CC4F1F1F2B9700FEDD20 /* TestObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestObject.cpp; sourceTree = "<group>"; };
+		A303CC501F1F2B9700FEDD20 /* TestObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestObject.hpp; sourceTree = "<group>"; };
+		A303CC521F1F2BF800FEDD20 /* LNTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTestObject.h; sourceTree = "<group>"; };
+		A303CC531F1F2BF800FEDD20 /* LNTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTestObject.m; sourceTree = "<group>"; };
+		A303CC551F1F2C3200FEDD20 /* TestObject-C-Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestObject-C-Interface.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A303CC131F1F2B2400FEDD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303CC2C1F1F2B2400FEDD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303CC371F1F2B2400FEDD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A303CC0D1F1F2B2400FEDD20 = {
+			isa = PBXGroup;
+			children = (
+				A303CC181F1F2B2400FEDD20 /* c++混编测试Demo */,
+				A303CC321F1F2B2400FEDD20 /* c++混编测试DemoTests */,
+				A303CC3D1F1F2B2400FEDD20 /* c++混编测试DemoUITests */,
+				A303CC171F1F2B2400FEDD20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A303CC171F1F2B2400FEDD20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A303CC161F1F2B2400FEDD20 /* c++混编测试Demo.app */,
+				A303CC2F1F1F2B2400FEDD20 /* c++混编测试DemoTests.xctest */,
+				A303CC3A1F1F2B2400FEDD20 /* c++混编测试DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A303CC181F1F2B2400FEDD20 /* c++混编测试Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A303CC4F1F1F2B9700FEDD20 /* TestObject.cpp */,
+				A303CC501F1F2B9700FEDD20 /* TestObject.hpp */,
+				A303CC521F1F2BF800FEDD20 /* LNTestObject.h */,
+				A303CC531F1F2BF800FEDD20 /* LNTestObject.m */,
+				A303CC551F1F2C3200FEDD20 /* TestObject-C-Interface.h */,
+				A303CC1C1F1F2B2400FEDD20 /* AppDelegate.h */,
+				A303CC1D1F1F2B2400FEDD20 /* AppDelegate.m */,
+				A303CC1F1F1F2B2400FEDD20 /* ViewController.h */,
+				A303CC201F1F2B2400FEDD20 /* ViewController.m */,
+				A303CC221F1F2B2400FEDD20 /* Main.storyboard */,
+				A303CC251F1F2B2400FEDD20 /* Assets.xcassets */,
+				A303CC271F1F2B2400FEDD20 /* LaunchScreen.storyboard */,
+				A303CC2A1F1F2B2400FEDD20 /* Info.plist */,
+				A303CC191F1F2B2400FEDD20 /* Supporting Files */,
+			);
+			path = "c++混编测试Demo";
+			sourceTree = "<group>";
+		};
+		A303CC191F1F2B2400FEDD20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A303CC1A1F1F2B2400FEDD20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A303CC321F1F2B2400FEDD20 /* c++混编测试DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A303CC331F1F2B2400FEDD20 /* c______DemoTests.m */,
+				A303CC351F1F2B2400FEDD20 /* Info.plist */,
+			);
+			path = "c++混编测试DemoTests";
+			sourceTree = "<group>";
+		};
+		A303CC3D1F1F2B2400FEDD20 /* c++混编测试DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A303CC3E1F1F2B2400FEDD20 /* c______DemoUITests.m */,
+				A303CC401F1F2B2400FEDD20 /* Info.plist */,
+			);
+			path = "c++混编测试DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A303CC151F1F2B2400FEDD20 /* c++混编测试Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A303CC431F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试Demo" */;
+			buildPhases = (
+				A303CC121F1F2B2400FEDD20 /* Sources */,
+				A303CC131F1F2B2400FEDD20 /* Frameworks */,
+				A303CC141F1F2B2400FEDD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "c++混编测试Demo";
+			productName = "c++混编测试Demo";
+			productReference = A303CC161F1F2B2400FEDD20 /* c++混编测试Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A303CC2E1F1F2B2400FEDD20 /* c++混编测试DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A303CC461F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试DemoTests" */;
+			buildPhases = (
+				A303CC2B1F1F2B2400FEDD20 /* Sources */,
+				A303CC2C1F1F2B2400FEDD20 /* Frameworks */,
+				A303CC2D1F1F2B2400FEDD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A303CC311F1F2B2400FEDD20 /* PBXTargetDependency */,
+			);
+			name = "c++混编测试DemoTests";
+			productName = "c++混编测试DemoTests";
+			productReference = A303CC2F1F1F2B2400FEDD20 /* c++混编测试DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A303CC391F1F2B2400FEDD20 /* c++混编测试DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A303CC491F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试DemoUITests" */;
+			buildPhases = (
+				A303CC361F1F2B2400FEDD20 /* Sources */,
+				A303CC371F1F2B2400FEDD20 /* Frameworks */,
+				A303CC381F1F2B2400FEDD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A303CC3C1F1F2B2400FEDD20 /* PBXTargetDependency */,
+			);
+			name = "c++混编测试DemoUITests";
+			productName = "c++混编测试DemoUITests";
+			productReference = A303CC3A1F1F2B2400FEDD20 /* c++混编测试DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A303CC0E1F1F2B2400FEDD20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Doris;
+				TargetAttributes = {
+					A303CC151F1F2B2400FEDD20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A303CC2E1F1F2B2400FEDD20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A303CC151F1F2B2400FEDD20;
+					};
+					A303CC391F1F2B2400FEDD20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A303CC151F1F2B2400FEDD20;
+					};
+				};
+			};
+			buildConfigurationList = A303CC111F1F2B2400FEDD20 /* Build configuration list for PBXProject "c++混编测试Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A303CC0D1F1F2B2400FEDD20;
+			productRefGroup = A303CC171F1F2B2400FEDD20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A303CC151F1F2B2400FEDD20 /* c++混编测试Demo */,
+				A303CC2E1F1F2B2400FEDD20 /* c++混编测试DemoTests */,
+				A303CC391F1F2B2400FEDD20 /* c++混编测试DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A303CC141F1F2B2400FEDD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A303CC291F1F2B2400FEDD20 /* LaunchScreen.storyboard in Resources */,
+				A303CC261F1F2B2400FEDD20 /* Assets.xcassets in Resources */,
+				A303CC241F1F2B2400FEDD20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303CC2D1F1F2B2400FEDD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303CC381F1F2B2400FEDD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A303CC121F1F2B2400FEDD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A303CC211F1F2B2400FEDD20 /* ViewController.m in Sources */,
+				A303CC1E1F1F2B2400FEDD20 /* AppDelegate.m in Sources */,
+				A303CC511F1F2B9700FEDD20 /* TestObject.cpp in Sources */,
+				A303CC1B1F1F2B2400FEDD20 /* main.m in Sources */,
+				A303CC541F1F2BF800FEDD20 /* LNTestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303CC2B1F1F2B2400FEDD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A303CC341F1F2B2400FEDD20 /* c______DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303CC361F1F2B2400FEDD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A303CC3F1F1F2B2400FEDD20 /* c______DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A303CC311F1F2B2400FEDD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A303CC151F1F2B2400FEDD20 /* c++混编测试Demo */;
+			targetProxy = A303CC301F1F2B2400FEDD20 /* PBXContainerItemProxy */;
+		};
+		A303CC3C1F1F2B2400FEDD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A303CC151F1F2B2400FEDD20 /* c++混编测试Demo */;
+			targetProxy = A303CC3B1F1F2B2400FEDD20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A303CC221F1F2B2400FEDD20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A303CC231F1F2B2400FEDD20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A303CC271F1F2B2400FEDD20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A303CC281F1F2B2400FEDD20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A303CC411F1F2B2400FEDD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A303CC421F1F2B2400FEDD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A303CC441F1F2B2400FEDD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "c++混编测试Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A303CC451F1F2B2400FEDD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "c++混编测试Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A303CC471F1F2B2400FEDD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "c++混编测试DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/c++混编测试Demo.app/c++混编测试Demo";
+			};
+			name = Debug;
+		};
+		A303CC481F1F2B2400FEDD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "c++混编测试DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/c++混编测试Demo.app/c++混编测试Demo";
+			};
+			name = Release;
+		};
+		A303CC4A1F1F2B2400FEDD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "c++混编测试DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "c++混编测试Demo";
+			};
+			name = Debug;
+		};
+		A303CC4B1F1F2B2400FEDD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "c++混编测试DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "c++混编测试Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A303CC111F1F2B2400FEDD20 /* Build configuration list for PBXProject "c++混编测试Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A303CC411F1F2B2400FEDD20 /* Debug */,
+				A303CC421F1F2B2400FEDD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A303CC431F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A303CC441F1F2B2400FEDD20 /* Debug */,
+				A303CC451F1F2B2400FEDD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A303CC461F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A303CC471F1F2B2400FEDD20 /* Debug */,
+				A303CC481F1F2B2400FEDD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A303CC491F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A303CC4A1F1F2B2400FEDD20 /* Debug */,
+				A303CC4B1F1F2B2400FEDD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A303CC0E1F1F2B2400FEDD20 /* Project object */;
+}
