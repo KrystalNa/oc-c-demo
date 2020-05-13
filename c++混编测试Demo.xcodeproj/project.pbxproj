@@ -16,7 +16,8 @@
 		A303CC341F1F2B2400FEDD20 /* c______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC331F1F2B2400FEDD20 /* c______DemoTests.m */; };
 		A303CC3F1F1F2B2400FEDD20 /* c______DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC3E1F1F2B2400FEDD20 /* c______DemoUITests.m */; };
 		A303CC511F1F2B9700FEDD20 /* TestObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A303CC4F1F1F2B9700FEDD20 /* TestObject.cpp */; };
-		A303CC541F1F2BF800FEDD20 /* LNTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CC531F1F2BF800FEDD20 /* LNTestObject.m */; };
+		A303CC541F1F2BF800FEDD20 /* LNTestObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A303CC531F1F2BF800FEDD20 /* LNTestObject.mm */; };
+		AAB18B4E246BEC39008AB491 /* LNTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAB18B4C246BEC39008AB491 /* LNTest.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +57,10 @@
 		A303CC4F1F1F2B9700FEDD20 /* TestObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestObject.cpp; sourceTree = "<group>"; };
 		A303CC501F1F2B9700FEDD20 /* TestObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestObject.hpp; sourceTree = "<group>"; };
 		A303CC521F1F2BF800FEDD20 /* LNTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTestObject.h; sourceTree = "<group>"; };
-		A303CC531F1F2BF800FEDD20 /* LNTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTestObject.m; sourceTree = "<group>"; };
+		A303CC531F1F2BF800FEDD20 /* LNTestObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LNTestObject.mm; sourceTree = "<group>"; };
 		A303CC551F1F2C3200FEDD20 /* TestObject-C-Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestObject-C-Interface.h"; sourceTree = "<group>"; };
+		AAB18B4C246BEC39008AB491 /* LNTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LNTest.mm; sourceTree = "<group>"; };
+		AAB18B4D246BEC39008AB491 /* LNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +111,12 @@
 		A303CC181F1F2B2400FEDD20 /* c++混编测试Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AAB18B4D246BEC39008AB491 /* LNTest.h */,
+				AAB18B4C246BEC39008AB491 /* LNTest.mm */,
 				A303CC4F1F1F2B9700FEDD20 /* TestObject.cpp */,
 				A303CC501F1F2B9700FEDD20 /* TestObject.hpp */,
 				A303CC521F1F2BF800FEDD20 /* LNTestObject.h */,
-				A303CC531F1F2BF800FEDD20 /* LNTestObject.m */,
+				A303CC531F1F2BF800FEDD20 /* LNTestObject.mm */,
 				A303CC551F1F2C3200FEDD20 /* TestObject-C-Interface.h */,
 				A303CC1C1F1F2B2400FEDD20 /* AppDelegate.h */,
 				A303CC1D1F1F2B2400FEDD20 /* AppDelegate.m */,
@@ -220,6 +225,7 @@
 				TargetAttributes = {
 					A303CC151F1F2B2400FEDD20 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4KM2889776;
 						ProvisioningStyle = Automatic;
 					};
 					A303CC2E1F1F2B2400FEDD20 = {
@@ -239,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -287,10 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A303CC211F1F2B2400FEDD20 /* ViewController.m in Sources */,
+				AAB18B4E246BEC39008AB491 /* LNTest.mm in Sources */,
 				A303CC1E1F1F2B2400FEDD20 /* AppDelegate.m in Sources */,
 				A303CC511F1F2B9700FEDD20 /* TestObject.cpp in Sources */,
 				A303CC1B1F1F2B2400FEDD20 /* main.m in Sources */,
-				A303CC541F1F2BF800FEDD20 /* LNTestObject.m in Sources */,
+				A303CC541F1F2BF800FEDD20 /* LNTestObject.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KM2889776;
 				INFOPLIST_FILE = "c++混编测试Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------Demo";
@@ -452,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KM2889776;
 				INFOPLIST_FILE = "c++混编测试Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "doris.c------Demo";
@@ -524,6 +534,7 @@
 				A303CC451F1F2B2400FEDD20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A303CC461F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +543,7 @@
 				A303CC481F1F2B2400FEDD20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A303CC491F1F2B2400FEDD20 /* Build configuration list for PBXNativeTarget "c++混编测试DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +552,7 @@
 				A303CC4B1F1F2B2400FEDD20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

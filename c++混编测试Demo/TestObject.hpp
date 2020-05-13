@@ -10,7 +10,7 @@
 #define TestObject_hpp
 #include "TestObject-C-Interface.h"
 #include <stdio.h>
-class TypeLock{
+class TestObject{
 public:
     void testFunction(int temp){
         c_testFunction(temp);

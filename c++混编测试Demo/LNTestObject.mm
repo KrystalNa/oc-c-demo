@@ -21,7 +21,7 @@ static LNTestObject*testObject =nil;
 
 //C实现
 void c_testFunction(int temp){
-    [testObject c_testFunction:temp];
+    [[LNTestObject shareInstance] c_testFunction:temp];
 }
 
 //OC实现

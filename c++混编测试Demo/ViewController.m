@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LNTestObject.h"
+#import "LNTest.h"
 
 @interface ViewController ()
 
@@ -17,9 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    LNTestObject *testObject = [[LNTestObject alloc] init];
-    [testObject c_testFunction:10];
+    //oc调用c++方法，之后c++方法调用oc方法
+    LNTest *testObject = [[LNTest alloc] init];
+    [testObject testFunc];
 }
 
 
